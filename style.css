@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+
+    /* Color de seguridad y tu imagen de fondo del cuásar */
+    background-color: #050614; 
+    background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJeoDKC9-2zONPbMrAE8opPYCK_TpUVBt02Xtfb3OsaNEcpZ6dRKwHzfWAFnuzx0Y9Tppph3yy_0NrKN68_vqswyFvX8BII5ApMgTuOxfdS3LG3W9okE_Yj01JNnCI8zi7dPleV_JYHCEQ/s1600/quasar.jpg');
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* Añadimos esto para que el fondo quede fijo al hacer scroll, queda mejor */
+    background-attachment: fixed; 
+}
+
+/* Estilo del canvas */
+canvas {
+     cursor: pointer; /* Mantenemos la manita al pasar el ratón */
+}
+
+
